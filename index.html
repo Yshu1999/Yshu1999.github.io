@@ -6,59 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="image.png" type="image/x-icon">
   <link rel="stylesheet" href="css/main.bundle.css">
+  <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  <script src="script.js"></script>
+
 </head>
 
 <body>
-
-
   <section class="hero is-primary">
     <div class="hero-body">
-      <div class="container">
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="img/image.png">
-            </figure>
-          </div>
+      <div class="container has-text-centered">
+        <!-- Profile Image -->
+        <figure class="image is-128x128 is-inline-block">
+          <img class="is-rounded" src="img/image.png" alt="Your Image">
+        </figure>
+        <!-- Name -->
+        <h1 class="title is-2" style="margin-top: 20px;">Vyshnavi Manubolu</h1>
+        <!-- Subtitle -->
+        <h2 class="subtitle is-5">
+          Data Science Enthusiast | SharePoint and Power Platform Developer
+        </h2>
+        <!-- Icons -->
+        <div class="icons-row">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/vyshnavi-manubolu-07462716b/" target="_blank"
+            class="icon is-large has-text-link">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <!-- Email -->
+          <a href="mailto:vyshnavimanubolu@gmail.com" class="icon is-large has-text-info">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/Yshu1999" target="_blank" class="icon is-large has-text-light">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <!-- Resume -->
+          <a href="docs/Vyshnavi_Manubolu_Resume__sp_.pdf" target="_blank" class="icon is-large has-text-success">
+            <i class="fas fa-file-pdf fa-2x"></i>
+          </a>
         </div>
-        <div class="columns has-text-centered">
-          <div class="column">
-            <!-- Name and Title -->
-            <h1 class="title is-1">Vyshnavi Manubolu</h1>
-            <h2 class="subtitle">Data Science Enthusiast | SharePoint and Power Platform Developer</h2>
-        
-            <!-- Icons Row -->
-            <div class="icons-row">
-              <!-- LinkedIn -->
-              <a href="https://www.linkedin.com/in/vyshnavi-manubolu-07462716b/" target="_blank" rel="noopener noreferrer"
-                class="icon is-large has-text-link" title="LinkedIn">
-                <i class="fab fa-linkedin fa-2x"></i>
-              </a>
-        
-              <!-- Email -->
-              <a href="mailto:vyshnavimanubolu@gmail.com" class="icon is-large has-text-info" title="Email">
-                <i class="fas fa-envelope fa-2x"></i>
-              </a>
-        
-              <!-- GitHub -->
-              <a href="https://github.com/Yshu1999" target="_blank" rel="noopener noreferrer"
-                class="icon is-large has-text-light" title="GitHub">
-                <i class="fab fa-github fa-2x"></i>
-              </a>
-        
-              <!-- Resume -->
-              <a href="docs/Vyshnavi_Manubolu_Resume__sp_.pdf" target="_blank" rel="noopener noreferrer"
-                class="icon is-large has-text-success" title="Resume">
-                <i class="fas fa-file-pdf fa-2x"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
+
+
+
 
   <section class="section" style="background-color: #E8F5E9;">
     <div class="container" >
@@ -76,177 +69,246 @@
   </section>
   <section class="section" style="background-color: #E3F2FD;">
     <div class="container">
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Technical Skills</h1>
       <hr />
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
+  
+      <!-- Skills Cards -->
+      <div class="columns is-multiline">
+        <!-- Languages -->
+        <div class="column is-one-third">
+          <div class="card is-fullheight">
+            <div class="card-content">
+              <h2 class="subtitle is-5">Languages</h2>
+              <p>Python, C/C++, SQL, HTML/CSS, JavaScript, React JS, jQuery, XML</p>
             </div>
-            <div class="media-content">
-              <p class="title is-4">Missouri State University</p>
-              <p class="subtitle is-6">Graduate Assistant at ResNet
- - <time datetime="2023-5">May 2023 </time> - <time
-                  datetime="2024-12">Dec 2024</time> </p>
-            </div>
-          </div>
-          <div class="content">
-              <ul>
-              <li>Provided dedicated hardware and software support to a network of over 3,000 students and more than 150
-              staff members, addressing diverse technological needs and resolving nearly 40 issues per week.</li>
-              <li>Handled a wide range of technical issues, including printers, mobile devices, laptops, and software. Documented
-              troubleshooting steps and maintained detailed notes to streamline future support. Managed and responded to
-              support requests through phone, email, and ticketing systems, ensuring timely resolution of issues.</li>
-              <li>Successfully migrated an existing Power BI report from Oracle to SQL Server, configuring the database and
-              updating all related code. Rebuilt and optimized reports on residence life student data, providing insights into
-              occupancy, gender ratios, room utilization, and student movements.</li>
-              <li>Conducted in-depth analysis of residence life data, including annual dropout rates and computer lab
-              requirements per hall. Designed and implemented intuitive data visualizations using Power BI, such as pie
-              charts, bar graphs, and trend lines, to facilitate decision-making for housing management.</li>
-              <li>Actively participated in ResNet student employee hiring, supervised over 10 student employees, led 30+
-              technology projects, and collaborated with other employees to enhance ResNet operations.</li>
-              </ul>
           </div>
         </div>
+  
+        <!-- Data Science & ML -->
+        <div class="column is-one-third">
+          <div class="card is-fullheight">
+            <div class="card-content">
+              <h2 class="subtitle is-5">Data Science & Machine Learning</h2>
+              <p>Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Matplotlib, Seaborn, Pymoo, statistics</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Data Analytics & Visualization -->
+        <div class="column is-one-third">
+          <div class="card is-fullheight">
+            <div class="card-content">
+              <h2 class="subtitle is-5">Data Analytics & Visualization</h2>
+              <p>Power BI, Power Query, DAX, Matplotlib, Seaborn</p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card is-fullheight">
+            <div class="card-content">
+              <h2 class="subtitle is-5">Database Management</h2>
+              <p>SQL Server, Oracle, Azure SQL, SharePoint Lists, Dataverse</p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card is-fullheight">
+            <div class="card-content">
+              <h2 class="subtitle is-5">Tools & Technologies</h2>
+              <p>Microsoft O365, Power BI, Power Apps, Power Automate, Power Pages, SQL, Dataverse, SharePoint Online,
+                SharePoint 2013 & 2019, SharePoint Designer, InfoPath Forms, Microsoft Excel, Word, Adobe</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Cloud Technologies -->
+        <div class="column is-one-third">
+          <div class="card is-fullheight">
+            <div class="card-content">
+              <h2 class="subtitle is-5">Cloud Technologies</h2>
+              <p>Azure, Power Platform (Power Apps, MS Flow)</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Tools & Technologies -->
+        
+  
+        <!-- Database Management -->
+        
       </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Tata Consultancy Services, Client: Ernst & Young</p>
-              <p class="subtitle is-6">Systems Engineer -<time datetime="2020-06">Jun 2020</time> - <time
-                  datetime="2023-01">Jan 2023</time></p>
-            </div>
-                  </div>
-                  <div class="content">
-                    <ul>
-                      <li>Supported 40+ applications on SharePoint using Power Automate, PowerApps, and Power BI for a global user
-                        base.</li>
-                      <li>Developed SharePoint web pages, lists, content types, document sets, and libraries on SharePoint team
-                        sites tailored to specific business requirements. Worked on script editor and content editor webparts to
-                        customize SharePoint pages.</li>
-                      <li>Ensured functionality maintenance by swiftly troubleshooting and resolving application issues, typically
-                        within a day or less. Utilized ServiceNow for issue tracking, change requests, and enhancements.</li>
-                      <li>Automated workflows with SharePoint Designer and MS Flow, reducing time for email notifications and
-                        critical process updates by 30% to 40%. Developed solutions using React, HTML, JavaScript, and SPFX,
-                        followed by rigorous testing to ensure reliability and performance.</li>
-                      <li>Managed both SharePoint online and on-premises applications, including migrating on-premise applications
-                        to the online platform.</li>
-                      <li>Developed CanvasApps integrated with SharePoint databases, SQL, and Dataverse to streamline processes.
-                      </li>
-                      <li>Developed and deployed Power BI dashboards with custom visuals, Power Query, and DAX for bank confirmation
-                        applications, integrating them seamlessly into PowerApps and SharePoint.</li>
-                      <li>Attended weekly stand-up calls with business stakeholders to gather and refine business requirements.</li>
-                      <li>Created and maintained technical documentation, including standard operating procedures, troubleshooting
-                        guides, and knowledge base articles.</li>
-                      <li>Provided knowledge transfer (KT) sessions and mentoring for junior developers.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
     </div>
   </section>
 
-<section class="section" style="background-color: #E8F5E9;">
+  
+  <section class="section" style="background-color: #E3F2FD;">
+    <div class="container">
+      <h1 class="title">Experience</h1>
+      <hr />
+  
+      <!-- Accordion -->
+      <div class="accordion">
+        <!-- Missouri State University -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">
+            <span>Missouri State University - Graduate Assistant at ResNet  </span>
+            <span class="dates">  May 2023 - Dec 2024</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <ul>
+              <li>Provided dedicated hardware and software support to a network of over 3,000 students and more than 150
+                staff members, resolving nearly 40 issues per week.</li>
+              <li>Handled technical issues, documented troubleshooting steps, and maintained detailed notes to streamline
+                future support.</li>
+              <li>Successfully migrated Power BI reports from Oracle to SQL Server, rebuilding and optimizing reports on
+                residence life student data.</li>
+              <li>Designed intuitive Power BI visualizations for housing management decision-making.</li>
+              <li>Supervised 10+ student employees and collaborated on over 30 technology projects.</li>
+            </ul>
+          </div>
+        </div>
+  
+        <!-- Tata Consultancy Services -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">
+            <span>Tata Consultancy Services - Systems Engineer</span>
+            <span class="dates">   Jun 2020 - Jan 2023</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <ul>
+              <li>Supported 40+ applications on SharePoint using Power Automate, PowerApps, and Power BI for a global user
+                base.</li>
+              <li>Developed SharePoint web pages, lists, content types, document sets, and libraries on SharePoint team
+                sites tailored to specific business requirements. Worked on script editor and content editor webparts to
+                customize SharePoint pages.</li>
+              <li>Ensured functionality maintenance by swiftly troubleshooting and resolving application issues, typically
+                within a day or less. Utilized ServiceNow for issue tracking, change requests, and enhancements.</li>
+              <li>Automated workflows with SharePoint Designer and MS Flow, reducing time for email notifications and
+                critical process updates by 30% to 40%. Developed solutions using React, HTML, JavaScript, and SPFX,
+                followed by rigorous testing to ensure reliability and performance.</li>
+              <li>Managed both SharePoint online and on-premises applications, including migrating on-premise applications
+                to the online platform.</li>
+              <li>Developed CanvasApps integrated with SharePoint databases, SQL, and Dataverse to streamline processes.
+              </li>
+              <li>Developed and deployed Power BI dashboards with custom visuals, Power Query, and DAX for bank confirmation
+                applications, integrating them seamlessly into PowerApps and SharePoint.</li>
+              <li>Attended weekly stand-up calls with business stakeholders to gather and refine business requirements.</li>
+              <li>Created and maintained technical documentation, including standard operating procedures, troubleshooting
+                guides, and knowledge base articles.</li>
+              <li>Provided knowledge transfer (KT) sessions and mentoring for junior developers.</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="section" style="background-color: #E3F2FD;">
   <div class="container">
     <h1 class="title">Projects</h1>
     <hr />
-    <div class="tile is-ancestor">
-      <div class="tile is-vertical is-12">
-        <div class="tile">
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <p class="title">Optimization of Evolutionary Algorithm using Surrogate Model</p>
-              <p class="subtitle is-6" style="margin-top: 20px">Tools/Technologies: Genetic Algorithm, NSGA-II, Machine Learning</p>
-              <div class="content">
-                <ul>
-                  <li>Applied Genetic Algorithms to enhance multi-objective optimization tasks using NSGA-II
-                    (Non-dominated Sorting Genetic Algorithm II).</li>
-                  <li>Implemented a surrogate model to approximate computationally expensive objective functions,
-                    reducing resource consumption by 90%.</li>
-                  <li>Streamlined the optimization process, enabling faster and more efficient evaluations.</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <p class="title">Employee Performance Analysis</p>
-              <p class="subtitle is-6" style="margin-top: 20px">Tools/Technologies: Data Visualization, Hypothesis Testing</p>
-              <div class="content">
-                <ul>
-                  <li>Analyzed a dataset of employee evaluations to assess performance trends across departments.</li>
-                  <li>Built visualizations using Seaborn and Matplotlib to explore data distribution and relationships
-                    between variables.</li>
-                  <li>Applied statistical methods, including hypothesis testing (t-tests, ANOVA), to identify
-                    significant factors influencing employee performance.</li>
-                  <li>Found that employees with higher education levels and more experience had better performance
-                    scores.</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <p class="title">Restaurant Performance Analysis in the US</p>
-              <p class="subtitle is-6" style="margin-top: 20px">Tools/Technologies: Data Collection, Preprocessing, EDA, Data Visualization</p>
-              <div class="content">
-                <ul>
-                  <li>Analyzed a dataset of US restaurants to uncover insights into factors affecting performance,
-                    customer preferences, and regional trends.</li>
-                  <li>Gathered data from online platforms, cleaned and normalized it using Python (Pandas, NumPy).</li>
-                  <li>Visualized trends and distributions with Matplotlib and Seaborn, identifying popular cuisines and
-                    average ratings by region.</li>
-                  <li>Developed a regression model with Scikit-learn to predict restaurant ratings based on features
-                    like location and cuisine type.</li>
-                  <li>Provided recommendations for location selection, menu optimization, and marketing strategies.</li>
-                </ul>
-              </div>
-            </article>
-          </div>
+
+    <!-- Accordion for Projects -->
+    <div class="accordion">
+      <!-- Project 1 -->
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+          <span>Optimization of Evolutionary Algorithm using Surrogate Model</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p class="subtitle is-6">Tools/Technologies: Genetic Algorithm, NSGA-II, Machine Learning</p>
+          <ul>
+            <li>Applied Genetic Algorithms to enhance multi-objective optimization tasks using NSGA-II
+              (Non-dominated Sorting Genetic Algorithm II).</li>
+            <li>Implemented a surrogate model to approximate computationally expensive objective functions,
+              reducing resource consumption by 90%.</li>
+            <li>Streamlined the optimization process, enabling faster and more efficient evaluations.</li> </ul>
         </div>
       </div>
-    </div>
-    <div class="tile is-ancestor">
-      <div class="tile is-vertical is-12">
-        <div class="tile">
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <p class="title">Mobile Banking App Development Project</p>
-              <p class="subtitle is-6" style="margin-top: 20px">Tools/Technologies: Power Apps, SharePoint Lists, Power Automate</p>
-              <div class="content">
-                <ul>
-                  <li>Developed a PowerApps canvas app as a mobile banking prototype, leveraging SharePoint Online as a
-                    secure database.</li>
-                  <li>Incorporated Single Sign-On (SSO) for user access to account details, transaction histories, and
-                    mini statements.</li>
-                  <li>Implemented transactional email notifications and spending charts using Power BI to enhance the
-                    user experience.</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <p class="title">Transmission Loss Minimization with TCSC using PSO Algorithm</p>
-              <p class="subtitle is-6" style="margin-top: 20px">Tools/Technologies: MATLAB, PSO Algorithm</p>
-              <div class="content">
-                <ul>
-                  <li>Designed a Particle Swarm Optimization algorithm to minimize transmission losses by strategically
-                    positioning Thyristor Controlled Series Capacitors (TCSC) within transmission lines.</li>
-                  <li>Achieved a significant reduction of 40MW in losses on an IEEE-14 bus system.</li>
-                </ul>
-              </div>
-            </article>
-          </div>
+
+      <!-- Project 2 -->
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+          <span>Employee Performance Analysis</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p class="subtitle is-6">Tools/Technologies: Data Visualization, Hypothesis Testing</p>
+          <ul>
+            <li>Analyzed a dataset of employee evaluations to assess performance trends across departments.</li>
+            <li>Built visualizations using Seaborn and Matplotlib to explore data distribution and relationships
+              between variables.</li>
+            <li>Applied statistical methods, including hypothesis testing (t-tests, ANOVA), to identify
+              significant factors influencing employee performance.</li>
+            <li>Found that employees with higher education levels and more experience had better performance
+              scores.</li> </ul>
         </div>
       </div>
+
+      <!-- Project 3 -->
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+          <span>Restaurant Performance Analysis in the US</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p class="subtitle is-6">Tools/Technologies: Data Collection, EDA, Data Visualization</p>
+          <ul>
+          <li>Analyzed a dataset of US restaurants to uncover insights into factors affecting performance,
+            customer preferences, and regional trends.</li>
+          <li>Gathered data from online platforms, cleaned and normalized it using Python (Pandas, NumPy).</li>
+          <li>Visualized trends and distributions with Matplotlib and Seaborn, identifying popular cuisines and
+            average ratings by region.</li>
+          <li>Developed a regression model with Scikit-learn to predict restaurant ratings based on features
+            like location and cuisine type.</li>
+          <li>Provided recommendations for location selection, menu optimization, and marketing strategies.</li> </ul>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+          <span>Mobile Banking App Development Project</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p class="subtitle is-6">Tools/Technologies: Power Apps, SharePoint Lists, Power Automate</p>
+          <ul>
+            <li>Developed a PowerApps canvas app as a mobile banking prototype, leveraging SharePoint Online as a secure database.
+</li>
+            <li>Incorporated Single Sign-On (SSO) for user access to account details, transaction histories, and mini statements.
+</li>
+            <li>Implemented transactional email notifications and spending charts using Power BI to enhance the user experience.
+</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+          <span>Transmission Loss Minimization with TCSC using PSO Algorithm</span>
+          <span class="icon">+</span>
+        </button>
+        <div class="accordion-body">
+          <p class="subtitle is-6">Tools/Technologies: Matlab, PSO, Power systems</p>
+          <ul>
+            <li>Designed a Particle Swarm Optimization algorithm to minimize transmission losses by strategically
+              positioning Thyristor Controlled Series Capacitors (TCSC) within transmission lines.</li>
+            <li>Achieved a significant reduction of 40MW in losses on an IEEE-14 bus system.</li> </ul>
+        </div>
+      </div>
+
+      
     </div>
   </div>
 </section>
+
+
+
+
+
 <section class="section">
     <div class="container">
       <h1 class="title">Contact</h1>

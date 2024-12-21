@@ -1,0 +1,106 @@
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+h1.title {
+  font-size: 2rem;
+  color: #2E7D32;
+  margin-bottom: 20px;
+}
+
+h2.subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #388E3C;
+}
+
+p {
+  font-size: 1rem;
+  color: #616161;
+}
+
+.columns {
+  margin-top: 20px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.card.is-fullheight {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.tab-content {
+  margin-top: 1.5rem;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.is-active {
+  display: block;
+}
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background-color: #00d1b2;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-body {
+    background-color: #E3F2FD;
+    padding: 1rem;
+    display: none;
+}
+
+.accordion-body ul {
+    padding-left: 1.5rem;
+}
+
+.accordion-body.is-visible {
+    display: block;
+}
+
+.icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+}
+
+[aria-expanded="true"] .icon {
+    transform: rotate(45deg);
+}
